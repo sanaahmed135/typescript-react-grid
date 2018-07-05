@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Row = /** @class */ (function () {
-    function Row(_id, _title, _count) {
+    function Row(_id, _title, _complete) {
         this.id = _id;
-        this.title = _title;
-        this.count = _count;
+        this.task = _title;
+        this.complete = _complete;
     }
     return Row;
 }());
